@@ -14,15 +14,14 @@
     .NavLink {
       display: flex;
       align-items: center;
-      text-decoration: none;
       border-radius: 1em;
       border: .25em solid $darkGreen;
       height: 100%;
       padding: $smallButtonPadding;
       margin: 0 0.25em;
       color: $darkBrown;
-      &:focus, &:hover, &:visited, &:link {
-        text-decoration: none;
+      &:hover {
+        border-color: $lightGreen;
       }
     }
 

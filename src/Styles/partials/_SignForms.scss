@@ -1,0 +1,71 @@
+.signForms--container {
+  margin: 0 auto;
+  margin-top: 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15em;
+  border-radius: 2em;
+  border: .25em solid $darkGreen;
+  background-color: $projectWhite;
+  padding: 1em;
+  color: $darkGreen;
+
+  .signForms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+
+    input {
+      width: 80%;
+      height: 2em;
+      margin: .5em;
+      border-radius: .5em;
+      border: .1em solid $lightBrown;
+      text-align: center;
+      background-color: $darkGreen;
+      color: $projectWhite;
+      font-size: 0.8em;
+      &:focus, &:active, &:hover {
+        background-color: $lightGreen;
+      }
+    }
+
+    input:-webkit-autofill {
+      -webkit-box-shadow: 0 0 0 30px $darkGreen inset;
+      -webkit-text-fill-color: $projectWhite !important;
+    }
+
+    input:-webkit-autofill:active,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus  {
+      background-color: $lightGreen;
+      -webkit-text-fill-color: $projectWhite !important;
+    }
+
+    button {
+      height: 2em;
+      margin: 1em;
+      padding: $smallButtonPadding;
+      border: .25em solid $darkGreen;
+      border-radius: 1em;
+      text-align: center;
+      background-color: $projectWhite;
+      color: $darkBrown;
+      &:hover {
+        border-color: $lightGreen;
+      }
+
+    }
+  }
+  h1, .signLinks {
+    display: block;
+    text-align: center;
+  }
+  .signLinks {
+    font-size: .6em;
+    color: $darkBrown;
+  }
+}

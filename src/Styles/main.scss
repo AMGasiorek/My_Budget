@@ -2,7 +2,7 @@
 //Import of Generic Styles
 
 @import "./generic/colorsPallete";
-@import "./generic/variables";
+@import "./generic/variable";
 
 //Import of style's reset:
 
@@ -21,4 +21,9 @@
 @import "./partials/Navigation";
 @import "./partials/Logo";
 @import "./partials/Menu";
-@import "./partials/UserStatus";
+@import "./partials/SignOutButton";
+
+
+@import "./partials/SignForms";
+
+@import "./partials/mainContainer";

@@ -3,12 +3,17 @@
   align-items: center;
   background-color: $lightBrown;
   border-radius: 1em;
-
   height: 2em;
   padding: .25em;
+  &:hover {
+    background-color: $darkGreen;
+    .logo--icon {
+      color: $projectWhite;
+    }
+  }
 
   .logo--icon, .logo--text {
-    color: $darkGreen;
+    color: $lightGreen;
   }
 
   .logo--icon {

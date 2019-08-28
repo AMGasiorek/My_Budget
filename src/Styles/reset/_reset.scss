@@ -8,9 +8,24 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: $projectWhite;
-  width: 1000px;
+  width: 80vw;
   margin: 0 auto;
   font-size: 20px;
+}
+
+button {
+  all: unset;
+}
+
+input {
+  all: unset;
+}
+
+a {
+  text-decoration: none;
+  &:focus, &:hover, &:visited, &:link {
+    text-decoration: none;
+  }
 }
 
 code {
