@@ -1,11 +1,14 @@
-import React, {Component} from 'react';
+import React from 'react';
+import { PasswordForgetForm } from '../PasswordForget/PassworgForget';
+import PasswordChangeForm from '../PasswordChange/PasswordChange';
 
-class Account extends Component {
-    render() {
-        return (
-            <p>Account</p>
-        )
-    }
-}
 
-export default Account
+const AccountPage = () => (
+    <div>
+        <h1>Account Page</h1>
+        <PasswordForgetForm />
+        <PasswordChangeForm />
+    </div>
+);
+
+export default AccountPage;
