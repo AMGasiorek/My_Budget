@@ -1,0 +1,41 @@
+.logo {
+  display: flex;
+  align-items: center;
+  background-color: $lightBrown;
+  border-radius: 1em;
+
+  height: 2em;
+  padding: .25em;
+
+  .logo--icon, .logo--text {
+    color: $darkGreen;
+  }
+
+  .logo--icon {
+    font-size: 1.5em;
+    padding: $smallButtonPadding;
+  }
+
+  .logo__textContainer {
+    border-radius: 0.8em;
+    background-color: $projectWhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: $smallButtonPadding;
+
+    .logo--text {
+      font-size: 1em;
+      margin: .1em;
+    }
+
+    .logo--text__m{
+      color: $lightBrown;
+    }
+
+  }
+
+}
+

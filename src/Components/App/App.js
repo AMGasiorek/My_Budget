@@ -1,8 +1,11 @@
 import React from 'react';
+import MainTemplate from "../Layouts/MainTemplate";
 
 function App() {
   return (
-    <h1 className="test">Test</h1>
+      <>
+        <MainTemplate />
+      </>
   );
 }
 

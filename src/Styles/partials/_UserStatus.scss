@@ -1,0 +1,11 @@
+.userStatus {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 1em;
+  border: .25em solid $darkGreen;
+  height: 2em;
+  padding: $smallButtonPadding;
+  background-color: $lightBrown;
+  color: $projectWhite;
+}

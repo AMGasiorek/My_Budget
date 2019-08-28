@@ -1,9 +1,24 @@
+
+//Import of Generic Styles
+
+@import "./generic/colorsPallete";
+@import "./generic/variables";
+
 //Import of style's reset:
 
-@import "reset/reset";
+@import "./reset/reset";
+
 
 
 
 //Import of partial styles:
 
 @import "./partials/App";
+
+//Import of header partial styles:
+
+@import "./partials/Header";
+@import "./partials/Navigation";
+@import "./partials/Logo";
+@import "./partials/Menu";
+@import "./partials/UserStatus";
