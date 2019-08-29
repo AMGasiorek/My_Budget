@@ -5,7 +5,7 @@ import * as ROUTES from '../../constants/routes';
 
 const PasswordForgetPage = () => (
     <div className="signForms--container">
-        <h1>PasswordForget</h1>
+        <h1>przypomnij hasło</h1>
         <PasswordForgetForm />
     </div>
 );
@@ -52,7 +52,7 @@ class PasswordForgetFormBase extends Component {
                     placeholder="Email Address"
                 />
                 <button disabled={isInvalid} type="submit">
-                    Reset My Password
+                    przypomnij hasło
                 </button>
                 {error && <p>{error.message}</p>}
             </form>

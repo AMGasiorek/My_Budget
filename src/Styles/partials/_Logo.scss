@@ -1,20 +1,14 @@
 .logo {
   display: flex;
   align-items: center;
-  background-color: $lightBrown;
+  background-color: $darkGreen;
   border-radius: 1em;
   height: 2em;
   padding: .25em;
   &:hover {
-    background-color: $darkGreen;
-    .logo--icon {
-      color: $projectWhite;
+    background-color: $lightGreen;
     }
-  }
 
-  .logo--icon, .logo--text {
-    color: $lightGreen;
-  }
 
   .logo--icon {
     font-size: 1.5em;
@@ -36,11 +30,34 @@
       margin: .1em;
     }
 
-    .logo--text__m{
-      color: $lightBrown;
+  }
+}
+
+
+.logoCopy {
+  @extend .logo;
+
+  border-radius: 3em;
+  height: 6em;
+  padding: .75em;
+  margin: 2em;
+
+  .logo--icon {
+    font-size: 4.5em;
+    padding: calc($smallButtonPadding*3);
+  }
+
+  .logo__textContainer {
+    border-radius: 2.4em;
+    height: 100%;
+    width: 100%;
+    padding: calc($smallButtonPadding*3);
+
+    .logo--text {
+      font-size: 3em;
+      margin: .3em;
     }
 
   }
 
 }
-

@@ -1,6 +1,40 @@
 .mainContainer {
   box-sizing: border-box;
-  border: 1px dashed red;
-  height: $mainContainerHeight;
+  border: 1px dashed $lightBrown;
+  min-height: $mainContainerHeight;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
+
+  .row {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    [class*="col-"]{
+
+    }
+
+    @for $i from 1 through $cols{
+      .col-#{$i}{
+        float: left;
+        min-height: 1px;
+        height: 100%;
+        width: (100%/$cols) *$i;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+    }
+
+    &:after, &:before {
+      content: "";
+      display: block;
+      clear: both;
+    }
+  }
 }

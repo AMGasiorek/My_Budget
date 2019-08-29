@@ -18,12 +18,23 @@ const Logo = () => {
             <div className="logo">
                 <LogoIcon />
                 <div className="logo__textContainer">
-                    <p className="logo--text logo--text__m">mój</p>
-                    <p className="logo--text">budżet</p>
+                    <p className="logo--text">mój</p>
+                    <p className="logo--text logo--text__b">budżet</p>
                 </div>
             </div>
         </Link>
     )
 };
 
-export default Logo
+const LogoCopy = () => (
+    <div className="logoCopy">
+        <LogoIcon />
+        <div className="logo__textContainer">
+            <p className="logo--text logo--text__m">mój</p>
+            <p className="logo--text">budżet</p>
+        </div>
+    </div>
+);
+
+export default Logo;
+export {LogoCopy};
