@@ -44,14 +44,14 @@
 
   .logo--icon {
     font-size: 4.5em;
-    padding: calc($smallButtonPadding*3);
+    padding: $smallButtonPadding;
   }
 
   .logo__textContainer {
     border-radius: 2.4em;
     height: 100%;
     width: 100%;
-    padding: calc($smallButtonPadding*3);
+    padding: $smallButtonPadding;
 
     .logo--text {
       font-size: 3em;

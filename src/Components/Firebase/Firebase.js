@@ -17,6 +17,9 @@ class Firebase {
         app.initializeApp(config);
         this.auth = app.auth();
         this.db = app.database();
+
+        /* Helper */
+        this.serverValue = app.database.ServerValue;
     }
     // *** Auth API ***
     doCreateUserWithEmailAndPassword = (email, password) =>
@@ -61,6 +64,12 @@ class Firebase {
     user = uid => this.db.ref(`users/${uid}`);
 
     users = () => this.db.ref('users');
+
+
+    // *** Message API ***
+    message = uid => this.db.ref(`messages/${uid}`);
+
+    messages = () => this.db.ref('messages');
 
 }
 
