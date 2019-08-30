@@ -1,0 +1,59 @@
+.signOutButton {
+  display: block;
+  border-radius: 1em;
+  border: .25em solid $darkGreen;
+  height: 2em;
+  padding: $smallButtonPadding;
+  background-color: $projectWhite;
+  color: $darkBrown;
+}
+
+.submitButton {
+  display: block;
+  border-radius: 1em;
+  border: .25em solid $darkGreen;
+  height: 2em;
+  padding: $smallButtonPadding;
+  background-color: $projectWhite;
+  color: $darkBrown;
+  &:hover {
+    border-color: $lightGreen;
+  }
+}
+
+.smallButton {
+  display: inline-block;
+  float: right;
+  border-radius: .5em;
+  border: .25em solid $darkGreen;
+  height: 1.3em;
+  padding: $smallButtonPadding;
+  margin: .2em;
+  background-color: $projectWhite;
+  color: $darkBrown;
+  font-size: .7em;
+  &:hover {
+    border-color: $lightGreen;
+  }
+  &:before, &:after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+}
+
+.smallButton__delete {
+  @extend .smallButton;
+  border-color: $deleteDark;
+  &:hover {
+    border-color: $deleteLight;
+  }
+}
+
+.smallButton__edit {
+  @extend .smallButton;
+  border-color: $editDark;
+  &:hover {
+    border-color: $editLight;
+  }
+}

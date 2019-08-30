@@ -2,26 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d77353c5-ea5c-4116-a598-58b2b3bb323a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/Expenditures/Expenditures.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Income/Income.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Message/Message.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Styles/partials/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Styles/partials/_inputs.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CNAME" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/precache-manifest.71f49ecdb34131d272538b4fd6f7b49d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.784d84ed.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.784d84ed.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.cefc5ba7.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.cefc5ba7.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.5b129ba0.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.5b129ba0.chunk.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Demo/Demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Demo/Demo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Firebase/Firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Firebase/Firebase.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Session/withAuthentication.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Session/withAuthentication.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/SignOut/SignOut.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SignOut/SignOut.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/SignUp/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SignUp/SignUp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/partials/_Logo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/partials/_Logo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/partials/_SignForms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/partials/_SignForms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Styles/generic/_colorsPallete.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/generic/_colorsPallete.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Styles/partials/_SignOutButton.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Styles/reset/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/reset/_reset.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,10 +28,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Session/withAuthentication.js">
+        <entry file="file://$PROJECT_DIR$/src/Components/Home/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
+            <state relative-caret-position="405">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -47,10 +40,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Home/Home.js">
+        <entry file="file://$PROJECT_DIR$/src/Components/Expenditures/Expenditures.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3180">
-              <caret line="215" column="20" selection-start-line="215" selection-start-column="20" selection-end-line="215" selection-end-column="20" />
+            <state relative-caret-position="248">
+              <caret line="64" column="32" lean-forward="true" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="92" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -59,21 +52,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Components/Demo/Demo.js">
+        <entry file="file://$PROJECT_DIR$/src/Components/Income/Income.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Firebase/Firebase.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+            <state relative-caret-position="300">
+              <caret line="62" column="29" lean-forward="true" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,17 +72,34 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Messages</find>
+      <find>Message</find>
+      <find>text</find>
+      <find>Text</find>
+      <find>Incomes</find>
+      <find>Income</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>incomes</replace>
+      <replace>income</replace>
+      <replace>Incomes</replace>
+      <replace>Income</replace>
+      <replace>number</replace>
+      <replace>Number</replace>
+      <replace>expenditures</replace>
+      <replace>expenditure</replace>
+      <replace>Expenditures</replace>
+      <replace>Expenditure</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Components/Layouts/Header/UserStatus.js" />
-        <option value="$PROJECT_DIR$/src/Components/Layouts/Header/Navigation.js" />
-        <option value="$PROJECT_DIR$/src/Components/Layouts/Header/Menu.js" />
-        <option value="$PROJECT_DIR$/src/Components/Layouts/main_section/AboutApp.js" />
-        <option value="$PROJECT_DIR$/src/Components/Layouts/main_section/StartPage.js" />
         <option value="$PROJECT_DIR$/src/Components/Layouts/main_section/MainSection.js" />
         <option value="$PROJECT_DIR$/src/Components/Layouts/MainSection.js" />
         <option value="$PROJECT_DIR$/src/Components/Layouts/MainTemplate.js" />
@@ -120,19 +121,16 @@
         <option value="$PROJECT_DIR$/src/Components/Session/withAuthorization.js" />
         <option value="$PROJECT_DIR$/src/Components/Admin/Admin.js" />
         <option value="$PROJECT_DIR$/src/Styles/partials/_UserStatus.scss" />
-        <option value="$PROJECT_DIR$/src/Styles/partials/_SignOutButton.scss" />
         <option value="$PROJECT_DIR$/src/Styles/partials/_Menu.scss" />
         <option value="$PROJECT_DIR$/src/Components/Navigation/Navigation.js" />
         <option value="$PROJECT_DIR$/src/Components/SignIn/SignIn.js" />
         <option value="$PROJECT_DIR$/src/Styles/generic/_variables.scss" />
         <option value="$PROJECT_DIR$/src/Styles/partials/_Header.scss" />
-        <option value="$PROJECT_DIR$/src/Styles/main.scss" />
         <option value="$PROJECT_DIR$/src/Components/MainContainer/MainContainer.js" />
         <option value="$PROJECT_DIR$/src/Components/App/App.js" />
         <option value="$PROJECT_DIR$/src/Components/Logo/Logo.js" />
         <option value="$PROJECT_DIR$/src/Components/Landing/Landing.js" />
         <option value="$PROJECT_DIR$/src/Styles/generic/_variable.scss" />
-        <option value="$PROJECT_DIR$/src/Styles/reset/_reset.scss" />
         <option value="$PROJECT_DIR$/src/Components/PasswordChange/PasswordChange.js" />
         <option value="$PROJECT_DIR$/src/Components/PasswordForget/PassworgForget.js" />
         <option value="$PROJECT_DIR$/src/Components/Account/Account.js" />
@@ -142,9 +140,17 @@
         <option value="$PROJECT_DIR$/src/Components/SignOut/SignOut.js" />
         <option value="$PROJECT_DIR$/src/Components/Session/withAuthentication.js" />
         <option value="$PROJECT_DIR$/src/Styles/partials/_SignForms.scss" />
+        <option value="$PROJECT_DIR$/src/Styles/partials/_SignOutButton.scss" />
+        <option value="$PROJECT_DIR$/src/Styles/generic/_colorsPallete.scss" />
+        <option value="$PROJECT_DIR$/src/Components/Message/Message.js" />
+        <option value="$PROJECT_DIR$/src/Styles/partials/_buttons.scss" />
+        <option value="$PROJECT_DIR$/src/Styles/reset/_reset.scss" />
+        <option value="$PROJECT_DIR$/src/Styles/main.scss" />
+        <option value="$PROJECT_DIR$/src/Components/Demo/Demo.js" />
         <option value="$PROJECT_DIR$/src/Components/Firebase/Firebase.js" />
         <option value="$PROJECT_DIR$/src/Components/Home/Home.js" />
-        <option value="$PROJECT_DIR$/src/Components/Demo/Demo.js" />
+        <option value="$PROJECT_DIR$/src/Components/Expenditures/Expenditures.js" />
+        <option value="$PROJECT_DIR$/src/Components/Income/Income.js" />
       </list>
     </option>
   </component>
@@ -159,6 +165,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,6 +196,13 @@
               <item name="My_Budget" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Expenditures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My_Budget" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My_Budget" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
               <item name="Firebase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -204,11 +218,24 @@
               <item name="Styles" type="462c0819:PsiDirectoryNode" />
               <item name="generic" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="My_Budget" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My_Budget" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Styles" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My_Budget" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My_Budget" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Styles" type="462c0819:PsiDirectoryNode" />
+              <item name="reset" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -272,16 +299,18 @@
       <workItem from="1567067350344" duration="4729000" />
       <workItem from="1567076073161" duration="6194000" />
       <workItem from="1567091322613" duration="28000" />
+      <workItem from="1567145994020" duration="9268000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84150000" />
+    <option name="totallyTimeSpent" value="93418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="950" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14153005" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14153005" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -295,7 +324,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2777101" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2777101" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -325,26 +354,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Styles/partials/_App.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Styles/generic/_colorsPallete.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/header/UserStatus.js" />
-    <entry file="file://$PROJECT_DIR$/build/logo192.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/logo512.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/favicon.ico">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -442,13 +451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Styles/partials/_SignOutButton.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Navigation/Navigation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
@@ -499,13 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Styles/reset/_reset.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Styles/partials/_mainContainer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -553,13 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Styles/partials/_Logo.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/SignUp/SignUp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="452">
@@ -604,13 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Session/withAuthentication.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -621,29 +602,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Home/Home.js">
+    <entry file="file://$PROJECT_DIR$/src/Styles/partials/_SignOutButton.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Styles/partials/_buttons.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3180">
-          <caret line="215" column="20" selection-start-line="215" selection-start-column="20" selection-end-line="215" selection-end-column="20" />
+        <state relative-caret-position="376">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Styles/reset/_reset.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Styles/partials/_Logo.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Styles/generic/_colorsPallete.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Demo/Demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Message/Message.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="209" column="54" lean-forward="true" selection-start-line="209" selection-start-column="54" selection-end-line="209" selection-end-column="54" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Demo/Demo.js">
+    <entry file="file://$PROJECT_DIR$/src/Styles/partials/_inputs.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Styles/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="121">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Firebase/Firebase.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+        <state relative-caret-position="466">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Home/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Expenditures/Expenditures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="64" column="32" lean-forward="true" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="92" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Income/Income.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="62" column="29" lean-forward="true" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -71,6 +71,16 @@ class Firebase {
 
     messages = () => this.db.ref('messages');
 
+    // *** Income API ***
+    income = uid => this.db.ref(`incomes/${uid}`);
+
+    incomes = () => this.db.ref('incomes');
+
+    // *** Income API ***
+    expenditure = uid => this.db.ref(`expenditures/${uid}`);
+
+    expenditures = () => this.db.ref('expenditures');
+
 }
 
 

@@ -9,11 +9,11 @@
 @import "./reset/reset";
 
 
+//Import of layout partial styles:
 
-
-//Import of partial styles:
-
+@import "./partials/mainContainer";
 @import "./partials/App";
+
 
 //Import of header partial styles:
 
@@ -21,9 +21,9 @@
 @import "./partials/Navigation";
 @import "./partials/Logo";
 @import "./partials/Menu";
-@import "./partials/SignOutButton";
 
 
+//Import of components' partial styles:
 @import "./partials/SignForms";
-
-@import "./partials/mainContainer";
+@import "./partials/buttons";
+@import "./partials/inputs";
