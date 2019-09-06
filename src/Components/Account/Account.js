@@ -1,7 +1,13 @@
 import React from 'react';
+import { compose } from 'recompose';
 import { PasswordForgetForm } from '../PasswordForget/PassworgForget';
 import PasswordChangeForm from '../PasswordChange/PasswordChange';
-import { AuthUserContext, withAuthorization } from '../Session/Session';
+import {
+    AuthUserContext,
+    withAuthorization,
+    withEmailVerification,
+} from '../Session/Session';
+import LoginManagement from "../LoginManagement/LoginManagement";
 
 
 const AccountPage = () => (
@@ -10,6 +16,7 @@ const AccountPage = () => (
             <div className="row">
                 <div className="col-6">
                     <h1>Account: {authUser.email}</h1>
+                    <LoginManagement authUser={authUser} />
                 </div>
                 <div className="col-6">
                     <div className="signForms--container">
@@ -26,4 +33,7 @@ const AccountPage = () => (
 
 const condition = authUser => !!authUser;
 
-export default withAuthorization(condition)(AccountPage);
+export default compose(
+    withEmailVerification,
+    withAuthorization(condition),
+)(AccountPage);

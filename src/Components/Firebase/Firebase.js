@@ -17,6 +17,10 @@ class Firebase {
         app.initializeApp(config);
         this.auth = app.auth();
         this.db = app.database();
+        this.emailAuthProvider = app.auth.EmailAuthProvider;
+        this.googleProvider = new app.auth.GoogleAuthProvider();
+        this.facebookProvider = new app.auth.FacebookAuthProvider();
+        this.twitterProvider = new app.auth.TwitterAuthProvider();
 
         /* Helper */
         this.serverValue = app.database.ServerValue;
@@ -27,6 +31,20 @@ class Firebase {
 
     doSignInWithEmailAndPassword = (email, password) =>
         this.auth.signInWithEmailAndPassword(email, password);
+
+    doSendEmailVerification = () =>
+        this.auth.currentUser.sendEmailVerification({
+            url: process.env.REACT_APP_CONFIRMATION_EMAIL_REDIRECT,
+        });
+
+    doSignInWithGoogle = () =>
+        this.auth.signInWithPopup(this.googleProvider);
+
+    doSignInWithFacebook = () =>
+        this.auth.signInWithPopup(this.facebookProvider);
+
+    doSignInWithTwitter = () =>
+        this.auth.signInWithPopup(this.twitterProvider);
 
     doSignOut = () => this.auth.signOut();
 
@@ -51,6 +69,8 @@ class Firebase {
                         authUser = {
                             uid: authUser.uid,
                             email: authUser.email,
+                            emailVerified: authUser.emailVerified,
+                            providerData: authUser.providerData,
                             ...dbUser,
                         };
                         next(authUser);

@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import { withAuthorization, AuthUserContext, } from '../Session/Session';
+import React, {Component} from 'react';
+import {withAuthorization, AuthUserContext,} from '../Session/Session';
 
-import { withFirebase } from '../Firebase';
+import {withFirebase} from '../Firebase';
 
 
-const IncomeList = ({ authUser, incomes, onRemoveIncome, onEditIncome }) => (
+const IncomeList = ({authUser, incomes, onRemoveIncome, onEditIncome}) => (
     <div className="budgetLists">
         <ul>
             {incomes.map(income => (
@@ -13,7 +13,7 @@ const IncomeList = ({ authUser, incomes, onRemoveIncome, onEditIncome }) => (
                     key={income.uid}
                     income={income}
                     onRemoveIncome={onRemoveIncome}
-                    onEditIncome={onEditIncome} />
+                    onEditIncome={onEditIncome}/>
             ))}
         </ul>
     </div>
@@ -47,7 +47,7 @@ class IncomeItem extends Component {
 
     render() {
 
-        const { authUser, income, onRemoveIncome } = this.props;
+        const {authUser, income, onRemoveIncome} = this.props;
         const {editMode, editNumber} = this.state;
 
         return (
@@ -59,7 +59,7 @@ class IncomeItem extends Component {
                             <input
                                 type="number"
                                 value={editNumber}
-                                onChange={this.onChangeEditNumber} />
+                                onChange={this.onChangeEditNumber}/>
                         ) : (
                             <span>
                                 {income.userId}<strong>{income.number} zł</strong>
@@ -79,7 +79,8 @@ class IncomeItem extends Component {
                     </span>
                 )}
 
-                {!editMode && (<button type="button" onClick={() => onRemoveIncome(income.uid) } className="smallButton__delete">usuń</button>)}
+                {!editMode && (<button type="button" onClick={() => onRemoveIncome(income.uid)}
+                                       className="smallButton__delete">usuń</button>)}
             </li>
         )
     }
@@ -99,16 +100,16 @@ class IncomesBase extends Component {
     }
 
     onChangeNumber = event => {
-        this.setState({ number: event.target.value });
+        this.setState({number: event.target.value});
     };
 
-    onCreateIncome = (event, authUser)=> {
+    onCreateIncome = (event, authUser) => {
         this.props.firebase.incomes().push({
             number: this.state.number,
             userId: authUser.uid,
             createdAt: this.props.firebase.serverValue.TIMESTAMP,
         });
-        this.setState({ number: '' });
+        this.setState({number: ''});
         event.preventDefault();
     };
 
@@ -117,7 +118,7 @@ class IncomesBase extends Component {
     };
 
     onEditIncome = (income, number) => {
-        const { uid, ...incomeSnapshot } = income;
+        const {uid, ...incomeSnapshot} = income;
         this.props.firebase.income(income.uid).set({
             ...incomeSnapshot,
             number,
@@ -130,7 +131,7 @@ class IncomesBase extends Component {
     }
 
     onListenForIncomes() {
-        this.setState({ loading: true });
+        this.setState({loading: true});
 
         this.props.firebase
             .incomes()
@@ -147,9 +148,10 @@ class IncomesBase extends Component {
                     }));
                     this.setState({
                         incomes: incomeList,
-                        loading: false });
+                        loading: false
+                    });
                 } else {
-                    this.setState({ incomes: null, loading: false });
+                    this.setState({incomes: null, loading: false});
                 }
             });
     }
@@ -160,14 +162,14 @@ class IncomesBase extends Component {
 
     onNextPage = () => {
         this.setState(
-            state => ({ limit: state.limit + 5 }),
+            state => ({limit: state.limit + 5}),
             this.onListenForIncomes,
         );
     };
 
 
     render() {
-        const { number, incomes, loading } = this.state;
+        const {number, incomes, loading} = this.state;
         return (
             <AuthUserContext.Consumer>
                 {authUser => (
@@ -185,7 +187,9 @@ class IncomesBase extends Component {
                                 <div>Nie wpisałeś jeszcze żadnych wpływów ...</div>
                             )}
                         </div>
-                        {!loading && incomes && (<button type="button" onClick={this.onNextPage} className="smallButton">załaduj więcej</button>)}
+                        {!loading && incomes && (
+                            <button type="button" onClick={this.onNextPage} className="smallButton">załaduj
+                                więcej</button>)}
                         <div className="signForms--container">
                             <form onSubmit={event => this.onCreateIncome(event, authUser)} className="signForms">
                                 <input

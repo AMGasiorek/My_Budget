@@ -1,5 +1,7 @@
 import React from 'react';
-import { withAuthorization } from '../Session/Session';
+import { compose } from 'recompose';
+import { withAuthorization, withEmailVerification } from '../Session/Session';
+
 
 import Expenditures from '../Expenditures/Expenditures';
 import Incomes from '../Income/Income';
@@ -26,4 +28,7 @@ const HomePage = () => (
 
 const condition = authUser => !!authUser;
 
-export default withAuthorization(condition)(HomePage);
+export default compose(
+    withEmailVerification,
+    withAuthorization(condition),
+)(HomePage);
